@@ -1,2 +1,1 @@
-# Personal-Website
-Sanhorn Chen's Personal Website
+Sanhorn's Personal Website

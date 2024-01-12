@@ -31,7 +31,7 @@ export const Connect = () => {
                                 <button><span>Github</span></button>     
                           </a>
                           <span>'\t''\t'</span>
-                          <a href="www.linkedin.com/in/sanhorn-chen-898941260" target="_blank">
+                          <a href="https://www.linkedin.com/in/sanhorn-chen-898941260/" target="_blank">
                                 <button><span>Linkedin</span></button>     
                           </a>  
                           <span>'\t''\t'</span>

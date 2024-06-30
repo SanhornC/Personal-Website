@@ -19,14 +19,15 @@ export const Experiences = () => {
   };
 
   return (
-    <section className="skill" id="experiences">
+    <section className="skill" id="research_experiences">
         <div className="container">
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Experiences</h2>
-                        <p>Artificial Intelligence Department, Foxconn (Hon Hai) Research Institute<br></br> AI Research Intern (Computer Vision)<br></br>June 2023 - Present</p>
-                        <p>Technology Services Help Desk, University of Illinois Urbana Champaign<br></br> IT Consultant<br></br>Jan 2023 - Present</p>
+                        <h2>Research Experiences</h2>
+                        <p>Department of Computer Science, City University of HongKong<br></br> Research Intern <br></br> June 2024 - Aug. 2024</p>
+                        <p>Artificial Intelligence Department, Foxconn (Hon Hai) Research Institute<br></br> AI Research Intern (Computer Vision)<br></br>June 2023 - Feb. 2024</p>
+                        <p>Technology Services Help Desk, University of Illinois Urbana Champaign<br></br> IT Consultant<br></br>Jan. 2023 - Mar. 2024</p>
                     </div>
                 </div>
             </div>

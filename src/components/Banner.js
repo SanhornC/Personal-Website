@@ -54,7 +54,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Sanhorn`} </h1>
                   <p>I'm a second year undergraduate in Computer Science + Economics Major at the University of Illinois Urbana Champaign. I'm interested in areas such as Artificial Intelligence/Machine Learning, Software Enginnering, Quantitative Trading, and Finance.</p>
-                  <a href="https://drive.google.com/file/d/1Brmbzr9sX4WZfX51YTUHqo9l6tSUR2z5/view?usp=sharing" target="_blank">
+                  <a href="https://drive.google.com/file/d/1P0Y-rO9Kf_5EHTwbv_lx04umA_NdpUzo/view?usp=sharing" target="_blank">
                     <button><span>View Resume</span></button>     
                   </a>   
               </div>    

@@ -1,4 +1,4 @@
-export const Experiences = () => {
+export const Work_Experiences = () => {
     const responsive = {
       superLargeDesktop: {
         breakpoint: { max: 4000, min: 3000 },
@@ -25,7 +25,7 @@ export const Experiences = () => {
                   <div className="col-12">
                       <div className="skill-bx wow zoomIn">
                           <h2>Work Experiences</h2>
-                          <p>Applied Technology for Learning in the Arts & Sciences<br></br> Incoming Intern</p> 
+                          <p>Applied Technology for Learning in the Arts & Sciences, University of Illinois Urbana Champaign<br></br> Incoming Intern<br></br>2024 Fall</p> 
                           <p>Technology Services Help Desk, University of Illinois Urbana Champaign<br></br> IT Consultant<br></br>Jan. 2023 - Mar. 2024</p>
                           <p>Technology Services Help Desk, University of Illinois Urbana Champaign<br></br> Mandarin Translator<br></br> Aug. 2023 - Oct. 2023</p>
                         </div>

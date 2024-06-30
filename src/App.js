@@ -1,7 +1,8 @@
 import './App.css';
 import { NavBar } from './components/NavBar';
 import { Banner } from "./components/Banner";
-import { Experiences } from "./components/experiences";
+import { Research_Experiences } from "./components/experiences";
+import { Work_Experiences } from "./components/work_experiences";
 import { Publications } from "./components/publications";
 import { Connect } from "./components/Connect";
 import { Footer } from "./components/Footer";
@@ -13,7 +14,8 @@ function App() {
       <NavBar />
       <Banner />
       <Publications />
-      <Experiences />
+      <Research_Experiences />
+      <Work_Experiences/>
       <Connect />
       <Footer />
     </div>

@@ -1,4 +1,4 @@
-export const Experiences = () => {
+export const Research_Experiences = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -27,7 +27,6 @@ export const Experiences = () => {
                         <h2>Research Experiences</h2>
                         <p>Department of Computer Science, City University of HongKong<br></br> Research Intern <br></br> June 2024 - Aug. 2024</p>
                         <p>Artificial Intelligence Department, Foxconn (Hon Hai) Research Institute<br></br> AI Research Intern (Computer Vision)<br></br>June 2023 - Feb. 2024</p>
-                        <p>Technology Services Help Desk, University of Illinois Urbana Champaign<br></br> IT Consultant<br></br>Jan. 2023 - Mar. 2024</p>
                     </div>
                 </div>
             </div>

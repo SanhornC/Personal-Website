@@ -1,47 +1,48 @@
+import React from 'react';
+import github_icon from './../assets/github_icon.jpg';
+import linkedin_icon from './../assets/linkedin_icon.png';
+
 export const Connect = () => {
-    const responsive = {
-      superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 5
-      },
-      desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 3
-      },
-      tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2
-      },
-      mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
-      }
-    };
-  
-    return (
-      <section className="skill" id="connect">
-          <div className="container">
-              <div className="row">
-                  <div className="col-12">
-                      <div className="skill-bx wow zoomIn">
-                          <h2>Let's Connect</h2>
-                          <br></br>
-                          <a href="https://github.com/SanhornC" target="_blank">
-                                <button><span>Github</span></button>     
-                          </a>
-                          <span>'\t''\t'</span>
-                          <a href="https://www.linkedin.com/in/sanhorn-chen-898941260/" target="_blank">
-                                <button><span>Linkedin</span></button>     
-                          </a>  
-                          <span>'\t''\t'</span>
-                          <a href="mailto:sanhorn2@illinois.edu">
-                                <button><span>Email</span></button>     
-                          </a>   
-                      </div>
-                  </div>
-              </div>
+  const contactLinks = [
+    {
+      title: "Github",
+      url: "https://github.com/SanhornC",
+      icon: github_icon
+    },
+    {
+      title: "LinkedIn",
+      url: "https://www.linkedin.com/in/sanhorn-chen-898941260/",
+      icon: linkedin_icon
+    },
+    {
+      title: "Email",
+      url: "mailto:sanhorn2@illinois.edu",
+      icon: null // You can add an email icon if you have one
+    }
+  ];
+
+  return (
+    <section className="connect-page" id="connect">
+      <div className="container">
+        <div className="connect-content">
+          <h2>Let's Connect</h2>
+          <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+          <div className="connect-links">
+            {contactLinks.map((link, index) => (
+              <a 
+                href={link.url} 
+                target={link.title === "Email" ? "_self" : "_blank"}
+                rel="noopener noreferrer"
+                key={index}
+                className="connect-button"
+              >
+                {link.icon && <img src={link.icon} alt={link.title} className="connect-icon" />}
+                <span>{link.title}</span>
+              </a>
+            ))}
           </div>
-      </section>
-    )
-  }
+        </div>
+      </div>
+    </section>
+  );
+};

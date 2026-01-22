@@ -398,25 +398,86 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 10px;
 }
 
+.experience-item a h3 {
+  color: rgb(49, 47, 47);
+  display: inline-block;
+  padding: 2px 6px;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.experience-item a h3::before {
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  background-color: rgb(46, 45, 45);
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.experience-item a h3:hover {
+  color: #ceb195;
+}
+
+.experience-item a h3:hover::before {
+  width: 100%;
+}
+
 .experience-item p {
   color: rgb(54, 53, 53);
   font-size: 18px;
   margin-bottom: 5px;
 }
 
-.experience-item p a{
+.experience-item p a {
   color: rgb(54, 53, 53);
+  display: inline-block;
+  padding: 2px 6px;
+  position: relative;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  z-index: 1;
 }
 
-.experience-item p a:hover{
-  color: rgb(126, 93, 46);
-  text-decoration: underline;
+.experience-item p a::before {
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  background-color: rgb(46, 45, 45);
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.experience-item p a:hover {
+  color: #ceb195;
+}
+
+.experience-item p a:hover::before {
+  width: 100%;
 }
 
 .experience-item .date {
   color: rgb(54, 53, 53);
   font-style: italic;
+}
+
+.experience-bullets {
+  margin: 10px 0 0 20px;
+  padding-left: 20px;
+}
+
+.experience-bullets li {
+  color: rgb(54, 53, 53);
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 /* Responsive design for experiences */
@@ -430,6 +491,68 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   
   .experience-half h2 {
+    font-size: 32px;
+  }
+}
+
+/************ Publications Css ************/
+.publications-page {
+  padding-top: 120px;
+  min-height: 100vh;
+  background-color: #ceb195;
+}
+
+.publications-section {
+  padding: 40px 0;
+}
+
+.publications-container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.publications-column {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.publications-column h2 {
+  color: rgb(49, 47, 47);
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.publications-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.publications-list li {
+  color: rgb(54, 53, 53);
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+.publication-authors {
+  font-weight: 600;
+}
+
+.publication-title {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .publications-container {
+    flex-direction: column;
+  }
+
+  .publications-column h2 {
     font-size: 32px;
   }
 }

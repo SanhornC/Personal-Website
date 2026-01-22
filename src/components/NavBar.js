@@ -43,6 +43,12 @@ export const NavBar = () => {
               className={location.pathname === '/projects' ? 'active navbar-link' : 'navbar-link'}>
               Projects
             </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/publications"
+              className={location.pathname === '/publications' ? 'active navbar-link' : 'navbar-link'}>
+              Publications
+            </Nav.Link>
             <Nav.Link 
               as={Link} 
               to="/connect" 

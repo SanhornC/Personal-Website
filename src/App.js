@@ -312,7 +312,7 @@ function About() {
               <IconLinkedIn />
             </a>
             {/* TODO: Add Google Scholar link */}
-            <a href="https://scholar.google.com/" aria-label="Google Scholar" title="Google Scholar (TODO: update URL)" {...EXT}>
+            <a href="https://scholar.google.com/citations?user=aVKZZlcAAAAJ&hl=en" aria-label="Google Scholar" title="Google Scholar (Sanhorn Chen)" {...EXT}>
               <IconScholar />
             </a>
             <a href="https://github.com/SanhornC" aria-label="GitHub" title="GitHub" {...EXT}>
